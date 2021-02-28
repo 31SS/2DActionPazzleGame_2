@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889794c411054f7ca8e6fbdc6728c846, type: 3}
+  m_Name: _UIButtonDatabase
+  m_EditorClassIdentifier: 
+  DatabaseType: 0
+  CategoryNames:
+  - Custom
+  - Example
+  - General
+  - Test
+  - MainGame
+  - Pause
+  - Title
+  - Option
+  Categories:
+  - {fileID: 11400000, guid: 40f9e81ff80114a47a3721228ba749ed, type: 2}
+  - {fileID: 11400000, guid: dc9c4759a7c324d4f948949bd1d189ab, type: 2}
+  - {fileID: 11400000, guid: 22f6efc22f69ce746b615382b2fb1910, type: 2}
+  - {fileID: 11400000, guid: bdc1ab80f6522754ab6149a9c1909b41, type: 2}
+  - {fileID: 11400000, guid: 6481c86ec160a78458aef97bf9bb1eae, type: 2}
+  - {fileID: 11400000, guid: abc116032b01fcf42b2bfedb685188c0, type: 2}
+  - {fileID: 11400000, guid: 196a8589a4651b54e94547a3cf3887d8, type: 2}

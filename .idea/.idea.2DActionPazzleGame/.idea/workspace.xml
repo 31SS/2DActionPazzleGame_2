@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17ad5409-bb9e-4398-958e-f75855b07d78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Pause.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Pause.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/_UIButtonDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/_UIButtonDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/_UIViewDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/_UIViewDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/1_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/1_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/2_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/2_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/3_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/3_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/PauseController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/PauseController.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DamageZone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DamageZone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/GameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2_PazzleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileMapPalette/Stage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileMapPalette/Stage.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Interface/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Interface/IGetableMaskHeart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameSystem/RaycastMask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Singleton/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Player/PlayerParameter_B.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameSystem/SceneChangeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerParameter_B.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameController/GameParameter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ScriptableCharaController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/ISteponable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IPickupable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/IncreaceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/UnityChan2DController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BaseCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan・RedLady/MaskManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan・MaskMan/BlueManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan・MaskMan/MaskManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IGetableMaskHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IBreakeable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Singleton/SingletonMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/AngelRingContoroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PCharacterState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Effect/DamageEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Effect/DamageEffectController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/SoilBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SceneChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameSystem/TimeScaleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/naichilab/FadeManager/Scripts/FadeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameSystem/SceneChangeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Block/DamageableBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/DamageableObject.cs" />
+        <option value="$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/package.json" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameSystem/RaycastMask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1muD6SRe6L9LvYav4EbUYf2PvBd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17ad5409-bb9e-4398-958e-f75855b07d78" name="Default Changelist" comment="" />
+      <created>1610334409454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610334409454</updated>
+      <workItem from="1610334420236" duration="9679000" />
+      <workItem from="1610614982881" duration="607000" />
+      <workItem from="1610690050603" duration="3217000" />
+      <workItem from="1610806412976" duration="6134000" />
+      <workItem from="1610869512485" duration="2755000" />
+      <workItem from="1610884867576" duration="4664000" />
+      <workItem from="1610954740082" duration="2277000" />
+      <workItem from="1611022834133" duration="4229000" />
+      <workItem from="1611497114353" duration="275000" />
+      <workItem from="1611497408927" duration="6893000" />
+      <workItem from="1611546218451" duration="5251000" />
+      <workItem from="1611582400661" duration="3512000" />
+      <workItem from="1611737988253" duration="813000" />
+      <workItem from="1611754876253" duration="2981000" />
+      <workItem from="1611824027218" duration="2281000" />
+      <workItem from="1611831307280" duration="6085000" />
+      <workItem from="1611903594799" duration="4911000" />
+      <workItem from="1611969782913" duration="821000" />
+      <workItem from="1611975826513" duration="1645000" />
+      <workItem from="1612173620798" duration="1393000" />
+      <workItem from="1612256127814" duration="2101000" />
+      <workItem from="1612270997444" duration="4520000" />
+      <workItem from="1612329894384" duration="2620000" />
+      <workItem from="1612427768981" duration="1190000" />
+      <workItem from="1612487763275" duration="140000" />
+      <workItem from="1612688930056" duration="1228000" />
+      <workItem from="1612765323150" duration="1252000" />
+      <workItem from="1612770338865" duration="4392000" />
+      <workItem from="1612855196803" duration="6393000" />
+      <workItem from="1612880967255" duration="1587000" />
+      <workItem from="1612936790434" duration="604000" />
+      <workItem from="1613061634604" duration="1349000" />
+      <workItem from="1613312943226" duration="743000" />
+      <workItem from="1613313777756" duration="3380000" />
+      <workItem from="1613377919203" duration="439000" />
+      <workItem from="1613483087580" duration="2826000" />
+      <workItem from="1613639984587" duration="51000" />
+      <workItem from="1613640631226" duration="565000" />
+      <workItem from="1613806344707" duration="1854000" />
+      <workItem from="1613812176003" duration="2125000" />
+      <workItem from="1613836354480" duration="1519000" />
+      <workItem from="1613892716520" duration="594000" />
+      <workItem from="1614416394500" duration="10000" />
+      <workItem from="1614419476283" duration="3000" />
+      <workItem from="1614420385161" duration="858000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#プラグイン" timestamp="1611497420872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#プラグイン/0.0.1920.1040@0.0.1920.1040" timestamp="1611497420872" />
+    <state x="779" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611546887537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611546887537" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1610808160154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1610808160154" />
+    <state x="1103" y="230" key="search.everywhere.popup" timestamp="1610340198590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610340198590" />
+  </component>
+</project>
