@@ -399,6 +399,12 @@ PrefabInstance:
       propertyPath: m_textInfo.characterCount
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8403824023862777967, guid: 5cf05b68dc581654e856be617f779e4f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 408c0ff3d6584a444a7ff24ae3dfb1f5,
+        type: 3}
     - target: {fileID: 8430640766992646734, guid: 5cf05b68dc581654e856be617f779e4f,
         type: 3}
       propertyPath: m_Pivot.x
