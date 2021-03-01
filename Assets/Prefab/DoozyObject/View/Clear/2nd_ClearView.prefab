@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6148612957660315469
+--- !u!1001 &5132183547043775118
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1514719814289314448, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_Name
-      value: 1st_ClearView
+      value: 2nd_ClearView
       objectReference: {fileID: 0}
     - target: {fileID: 4280478473918318779, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
@@ -120,7 +120,7 @@ PrefabInstance:
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_text
-      value: "1st Stage \n\u300COne Way\u300D"
+      value: "2nd Stage\n\u300CDiversity\u300D"
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
@@ -135,17 +135,17 @@ PrefabInstance:
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e704c0686420c0945ab4eefb79e31a48, type: 3}

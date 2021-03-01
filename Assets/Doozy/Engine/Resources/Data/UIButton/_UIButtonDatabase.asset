@@ -22,6 +22,7 @@ MonoBehaviour:
   - Pause
   - Title
   - Option
+  - Clear
   Categories:
   - {fileID: 11400000, guid: 40f9e81ff80114a47a3721228ba749ed, type: 2}
   - {fileID: 11400000, guid: dc9c4759a7c324d4f948949bd1d189ab, type: 2}
@@ -30,3 +31,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6481c86ec160a78458aef97bf9bb1eae, type: 2}
   - {fileID: 11400000, guid: abc116032b01fcf42b2bfedb685188c0, type: 2}
   - {fileID: 11400000, guid: 196a8589a4651b54e94547a3cf3887d8, type: 2}
+  - {fileID: 11400000, guid: 0a247bce7c64d984eb87f54f3bcbf87c, type: 2}

@@ -21,6 +21,7 @@ MonoBehaviour:
   - Test
   - Title
   - Option
+  - Clear
   Categories:
   - {fileID: 11400000, guid: b01e98f4801f7124ba39e1dac4debf90, type: 2}
   - {fileID: 11400000, guid: f19c423f575c643488dd0b62c54cd6d9, type: 2}
@@ -28,3 +29,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d15861bdf8997c743888264a4be7e81a, type: 2}
   - {fileID: 11400000, guid: a345924d9d667ff4583558ff45fb304f, type: 2}
   - {fileID: 11400000, guid: a975ae979b8ad45459ba00a588e06be3, type: 2}
+  - {fileID: 11400000, guid: 9d4e35c14b486c54695dc5081b00ca80, type: 2}

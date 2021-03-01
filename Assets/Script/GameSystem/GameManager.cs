@@ -146,6 +146,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
 
     public void GameClear()
     {
+        GameEventMessage.SendEvent(eventName[3]);
         stage++;
         // gameClearCanvasClone = Instantiate(gameClearCanvasPrefab);
         //後の処理はgameClearCanvasCloneで処理される。

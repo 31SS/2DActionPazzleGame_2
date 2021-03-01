@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: b93c9cc1315f3254b9fe3bfa99e6f916
+  - enabled: 1
     path: Assets/Scenes/1_PazzleScene.unity
     guid: b175f0a9ddbb95c4584fa4f75eddb44e
+  - enabled: 1
+    path: Assets/Scenes/2_PazzleScene.unity
+    guid: 944b1db82ff0f124fa80229480d79d26
+  - enabled: 1
+    path: Assets/Scenes/3_PazzleScene.unity
+    guid: 2fa1b846bdb991347a81d52098722ba2
   - enabled: 1
     path: Assets/Scenes/4_PazzleScene.unity
     guid: 6fbf349146a6687438a49d9f64cf0b9e

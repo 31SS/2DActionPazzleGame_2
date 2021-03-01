@@ -438,86 +438,6 @@ MonoBehaviour:
     InstantAction: 0
     Name: SceneChange
   m_onExitHideViews: []
---- !u!114 &-2627525166742485431
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1cae8f478440ec81883a1fcedcb279, type: 3}
-  m_Name: SoundNode
-  m_EditorClassIdentifier: 
-  ErrorNodeNameIsEmpty: 0
-  ErrorDuplicateNameFoundInGraph: 0
-  m_inputSockets:
-  - m_connectionMode: 1
-    m_connections: []
-    m_connectionPoints:
-    - {x: -2, y: 4}
-    - {x: 202, y: 4}
-    m_direction: 0
-    m_canBeDeleted: 0
-    m_canBeReordered: 0
-    m_curveModifier: 0
-    m_height: 24
-    m_width: 216
-    m_x: 0
-    m_y: 38
-    m_id: 2d4e19f5-0b44-4f49-97ad-2cafbb936a84
-    m_nodeId: 789f8b48-ef9e-4b5f-b162-6b2984ce5694
-    m_socketName: InputSocket_0
-    m_value: '{}'
-    m_valueTypeQualifiedName: Doozy.Engine.Nody.Connections.PassthroughConnection,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_outputSockets:
-  - m_connectionMode: 0
-    m_connections: []
-    m_connectionPoints:
-    - {x: -2, y: 4}
-    - {x: 202, y: 4}
-    m_direction: 1
-    m_canBeDeleted: 0
-    m_canBeReordered: 0
-    m_curveModifier: 0
-    m_height: 24
-    m_width: 216
-    m_x: 0
-    m_y: 62
-    m_id: 0c798f90-12b6-48ac-8ddf-bc7145fc9a8d
-    m_nodeId: 789f8b48-ef9e-4b5f-b162-6b2984ce5694
-    m_socketName: OutputSocket_0
-    m_value: '{}'
-    m_valueTypeQualifiedName: Doozy.Engine.Nody.Connections.PassthroughConnection,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_nodeType: 4
-  m_allowDuplicateNodeName: 1
-  m_allowEmptyNodeName: 0
-  m_canBeDeleted: 1
-  m_debugMode: 0
-  m_useFixedUpdate: 0
-  m_useLateUpdate: 0
-  m_useUpdate: 0
-  m_height: 178
-  m_width: 216
-  m_x: 283.2632
-  m_y: -80.548035
-  m_minimumInputSocketsCount: 1
-  m_minimumOutputSocketsCount: 1
-  m_graphId: b7a4a4ea-4797-4a27-8005-582d3180546c
-  m_id: 789f8b48-ef9e-4b5f-b162-6b2984ce5694
-  m_name: Sound Node
-  m_notes: 
-  ErrorPlayActionHasNoSound: 1
-  SoundData:
-    SoundSource: 0
-    DatabaseName: General
-    SoundName: No Sound
-    AudioClip: {fileID: 0}
-    OutputAudioMixerGroup: {fileID: 0}
-  SoundAction: 0
 --- !u!114 &-1527619524567258331
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -635,7 +555,7 @@ MonoBehaviour:
   m_version: 1
   m_description: 
   m_id: b7a4a4ea-4797-4a27-8005-582d3180546c
-  m_lastModified: 132588947696663109
+  m_lastModified: 132590791231302764
 --- !u!114 &1047637189615120953
 MonoBehaviour:
   m_ObjectHideFlags: 1
