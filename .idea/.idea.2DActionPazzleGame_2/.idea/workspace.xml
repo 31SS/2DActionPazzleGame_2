@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e76f2cc-ae41-4725-a496-994782a89e95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Clear PixelMplus12-Bold SDF 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Clear PixelMplus12-Bold SDF 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/LastClear PixelMplus12-Bold SDF 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/LastClear PixelMplus12-Bold SDF 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Option PixelMplus12-Bold SDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Option PixelMplus12-Bold SDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/OrangeEffectTitle PixelMplus12-Bold SDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/OrangeEffectTitle PixelMplus12-Bold SDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Pause PixelMplus12-Bold SDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Pause PixelMplus12-Bold SDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/PixelMplus12-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/PixelMplus12-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/PixelMplus12-Bold SDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/PixelMplus12-Bold SDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/SkyBlueEffectTitle PixelMplus12-Bold SDF 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/SkyBlueEffectTitle PixelMplus12-Bold SDF 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Title PixelMplus12-Bold SDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Title PixelMplus12-Bold SDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/Keyboard Prompts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/Keyboard Prompts.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/OptionView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/OptionView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Glyph Report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Glyph Report.txt.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
