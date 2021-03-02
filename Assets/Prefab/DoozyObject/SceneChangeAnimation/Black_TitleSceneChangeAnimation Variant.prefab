@@ -1,16 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5439443783382971848
+--- !u!1001 &6182396574781535394
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 10999677154202353, guid: 7db41eef43a79e34583f7c484df60766,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2429668601043188202, guid: 7db41eef43a79e34583f7c484df60766,
         type: 3}
       propertyPath: ViewName
-      value: SceneChange
+      value: SceneChange_Black
       objectReference: {fileID: 0}
     - target: {fileID: 2429668601043188202, guid: 7db41eef43a79e34583f7c484df60766,
         type: 3}
@@ -25,7 +30,7 @@ PrefabInstance:
     - target: {fileID: 5321754770893081064, guid: 7db41eef43a79e34583f7c484df60766,
         type: 3}
       propertyPath: m_Name
-      value: FirstTitleSceneChangeAnimation
+      value: Black_TitleSceneChangeAnimation Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5463227529511322083, guid: 7db41eef43a79e34583f7c484df60766,
         type: 3}
@@ -130,6 +135,21 @@ PrefabInstance:
     - target: {fileID: 5463227529511322083, guid: 7db41eef43a79e34583f7c484df60766,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316850634245543553, guid: 7db41eef43a79e34583f7c484df60766,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316850634245543553, guid: 7db41eef43a79e34583f7c484df60766,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316850634245543553, guid: 7db41eef43a79e34583f7c484df60766,
+        type: 3}
+      propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

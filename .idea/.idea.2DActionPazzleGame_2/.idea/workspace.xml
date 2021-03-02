@@ -3,18 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="5e76f2cc-ae41-4725-a496-994782a89e95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/_UIButtonDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/_UIButtonDatabase.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/_UIViewDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/_UIViewDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Clear.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Clear.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/UIView_Title.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIView/UIView_Title.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Title PixelMplus12-Bold SDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Title PixelMplus12-Bold SDF.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Graph/1_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/1_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/2_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/2_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/2_SceneChanger.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/2_SceneChanger.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Graph/3_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/3_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/3_SceneChanger.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/3_SceneChanger.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/4_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/4_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/4_SceneChanger.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/4_SceneChanger.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/FirstTitleController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/FirstTitleController.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Graph/PauseController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/PauseController.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/1st_ClearView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/1st_ClearView.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/ClearView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/ClearView.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/GameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/SceneChangeAnimation/FirstTitleSceneChangeAnimation.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/SceneChangeAnimation/FirstTitleSceneChangeAnimation.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/4th_ClearView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/4th_ClearView.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/2_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreLoadScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreLoadScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/itleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/itleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +56,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -73,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614607813391</updated>
       <workItem from="1614607820083" duration="838000" />
+      <workItem from="1614665681120" duration="597000" />
     </task>
     <servers />
   </component>

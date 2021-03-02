@@ -80,7 +80,7 @@ MonoBehaviour:
   m_name: ToTitleEvent
   m_notes: 
   ErrorNotSendingAnyGameEvent: 0
-  GameEvent: ToTitleEvent
+  GameEvent: TitleEvent
 --- !u!114 &-6379258450891650938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_version: 1
   m_description: 
   m_id: 23d87d38-1fe4-45c0-ba26-984fcd5c296c
-  m_lastModified: 132590809654851487
+  m_lastModified: 132591388885488662
 --- !u!114 &6324017546354083353
 MonoBehaviour:
   m_ObjectHideFlags: 1

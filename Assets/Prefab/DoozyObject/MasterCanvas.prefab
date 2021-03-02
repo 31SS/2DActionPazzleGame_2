@@ -313,6 +313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1st_ClearView
       objectReference: {fileID: 0}
+    - target: {fileID: 4634519910641380829, guid: 6737641ba9c5f3349b3f64ae8ec5b609,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7940711006528829430, guid: 6737641ba9c5f3349b3f64ae8ec5b609,
         type: 3}
       propertyPath: m_Pivot.x

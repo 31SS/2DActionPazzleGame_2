@@ -17,4 +17,6 @@ MonoBehaviour:
   Names:
   - Option
   - Start
-  - SceneChange
+  - SceneChange_White
+  - TitleText
+  - SceneChange_Black

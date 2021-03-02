@@ -3728,7 +3728,7 @@ PrefabInstance:
     - target: {fileID: 713486903707545116, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 713486903707545116, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
@@ -3913,6 +3913,11 @@ PrefabInstance:
     - target: {fileID: 4774886324157443908, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513974976477974493, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6598000425178605076, guid: d56da45226f83374fa9fedb445ba3c43,
@@ -3920,6 +3925,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 571309306}
+    - target: {fileID: 8710467369809833089, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56da45226f83374fa9fedb445ba3c43, type: 3}
 --- !u!4 &1172418158 stripped
@@ -4540,7 +4550,7 @@ GameObject:
   - component: {fileID: 1787407014}
   - component: {fileID: 1787407013}
   m_Layer: 0
-  m_Name: Graph Controller
+  m_Name: 3_Graph
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4560,8 +4570,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DebugMode: 0
   ControllerName: 
-  DontDestroyControllerOnLoad: 1
-  m_graphModel: {fileID: 11400000, guid: 0096d76570983e84b90897e73ecd0818, type: 2}
+  DontDestroyControllerOnLoad: 0
+  m_graphModel: {fileID: 11400000, guid: 6754a97dec8f93640bccfbf4dc15755c, type: 2}
 --- !u!4 &1787407014
 Transform:
   m_ObjectHideFlags: 0
@@ -4655,7 +4665,7 @@ PrefabInstance:
     - target: {fileID: 1785938935968932096, guid: 782dbad3083b4ba4d8b30456ca4b0321,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1785938935968932096, guid: 782dbad3083b4ba4d8b30456ca4b0321,
         type: 3}

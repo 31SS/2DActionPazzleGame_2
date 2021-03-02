@@ -2300,7 +2300,7 @@ GameObject:
   - component: {fileID: 1104270604}
   - component: {fileID: 1104270603}
   m_Layer: 0
-  m_Name: Graph Controller
+  m_Name: 2_Graph
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2320,8 +2320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DebugMode: 0
   ControllerName: 
-  DontDestroyControllerOnLoad: 1
-  m_graphModel: {fileID: 11400000, guid: 73ae50dc3d9a7a64799123994726d7e0, type: 2}
+  DontDestroyControllerOnLoad: 0
+  m_graphModel: {fileID: 11400000, guid: e1640877898d5614a8c15aaf2806370d, type: 2}
 --- !u!4 &1104270604
 Transform:
   m_ObjectHideFlags: 0
@@ -2343,6 +2343,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 87115086176947085, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 713486903707545116, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2521,7 +2526,7 @@ PrefabInstance:
     - target: {fileID: 4774886324157443908, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6050005896152806748, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
@@ -2541,6 +2546,11 @@ PrefabInstance:
     - target: {fileID: 6050005896152806748, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513974976477974493, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6598000425178605076, guid: d56da45226f83374fa9fedb445ba3c43,

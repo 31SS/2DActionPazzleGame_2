@@ -87,85 +87,6 @@ MonoBehaviour:
   SceneActivationDelay: 0.6
   SceneBuildIndex: 0
   SceneName: 1_PazzleScene
---- !u!114 &-7993797340910055714
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 840a439e06374673a9115ed02deb5a54, type: 3}
-  m_Name: UINode
-  m_EditorClassIdentifier: 
-  ErrorNodeNameIsEmpty: 0
-  ErrorDuplicateNameFoundInGraph: 0
-  m_inputSockets:
-  - m_connectionMode: 1
-    m_connections: []
-    m_connectionPoints:
-    - {x: -2, y: 4}
-    - {x: 202, y: 4}
-    m_direction: 0
-    m_canBeDeleted: 0
-    m_canBeReordered: 0
-    m_curveModifier: 0
-    m_height: 24
-    m_width: 216
-    m_x: 0
-    m_y: 38
-    m_id: 51d79ff4-6dd0-484d-9c5a-e1fbb2495eb5
-    m_nodeId: 4fb9eca3-a1f9-4a57-968e-eea334c5a41a
-    m_socketName: InputSocket_0
-    m_value: '{"ButtonCategory":"General","ButtonName":"Unnamed","GameEvent":"","TimeDelay":3.0,"Trigger":0}'
-    m_valueTypeQualifiedName: Doozy.Engine.UI.Connections.UIConnection, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_outputSockets:
-  - m_connectionMode: 0
-    m_connections: []
-    m_connectionPoints:
-    - {x: -2, y: 4}
-    - {x: 202, y: 4}
-    m_direction: 1
-    m_canBeDeleted: 1
-    m_canBeReordered: 1
-    m_curveModifier: 0
-    m_height: 24
-    m_width: 216
-    m_x: 0
-    m_y: 62
-    m_id: aaf4a8f7-a835-466d-8ce2-b9a383c33c4d
-    m_nodeId: 4fb9eca3-a1f9-4a57-968e-eea334c5a41a
-    m_socketName: OutputSocket_0
-    m_value: '{"ButtonCategory":"General","ButtonName":"Back","GameEvent":"","TimeDelay":3.0,"Trigger":0}'
-    m_valueTypeQualifiedName: Doozy.Engine.UI.Connections.UIConnection, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_nodeType: 4
-  m_allowDuplicateNodeName: 0
-  m_allowEmptyNodeName: 0
-  m_canBeDeleted: 1
-  m_debugMode: 0
-  m_useFixedUpdate: 0
-  m_useLateUpdate: 0
-  m_useUpdate: 0
-  m_height: 128
-  m_width: 216
-  m_x: -12
-  m_y: -36
-  m_minimumInputSocketsCount: 1
-  m_minimumOutputSocketsCount: 1
-  m_graphId: b7a4a4ea-4797-4a27-8005-582d3180546c
-  m_id: 4fb9eca3-a1f9-4a57-968e-eea334c5a41a
-  m_name: SceneChangeNode1
-  m_notes: 
-  m_onEnterShowViews: []
-  m_onEnterHideViews: []
-  m_onExitShowViews:
-  - Category: MainGame
-    InstantAction: 0
-    Name: SceneChange
-  m_onExitHideViews: []
 --- !u!114 &-6118524680885654019
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -746,6 +667,32 @@ MonoBehaviour:
     m_value: '{"ButtonCategory":"General","ButtonName":"Unnamed","GameEvent":"ClearEvent","TimeDelay":3.0,"Trigger":3}'
     m_valueTypeQualifiedName: Doozy.Engine.UI.Connections.UIConnection, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_connectionMode: 0
+    m_connections:
+    - m_inputConnectionPoint: {x: -2, y: 4}
+      m_outputConnectionPoint: {x: 202, y: 4}
+      m_id: d6f447b8-6088-479f-be1d-acd5b58a8faa
+      m_inputNodeId: 869ed8d4-c60d-42d1-9499-66451c1a0272
+      m_inputSocketId: 216eed6e-173c-46ce-acd7-c4bb29fe40f8
+      m_outputNodeId: 9d5452df-14ca-4b77-a140-20807974c50a
+      m_outputSocketId: 1479e5c4-498b-40b3-a06e-c77f031312f8
+    m_connectionPoints:
+    - {x: -2, y: 4}
+    - {x: 202, y: 4}
+    m_direction: 1
+    m_canBeDeleted: 1
+    m_canBeReordered: 1
+    m_curveModifier: 0
+    m_height: 24
+    m_width: 216
+    m_x: 0
+    m_y: 134
+    m_id: 1479e5c4-498b-40b3-a06e-c77f031312f8
+    m_nodeId: 9d5452df-14ca-4b77-a140-20807974c50a
+    m_socketName: OutputSocket_3
+    m_value: '{"ButtonCategory":"General","ButtonName":"Unnamed","GameEvent":"OverEvent","TimeDelay":3.0,"Trigger":3}'
+    m_valueTypeQualifiedName: Doozy.Engine.UI.Connections.UIConnection, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_nodeType: 4
   m_allowDuplicateNodeName: 0
   m_allowEmptyNodeName: 0
@@ -754,7 +701,7 @@ MonoBehaviour:
   m_useFixedUpdate: 0
   m_useLateUpdate: 0
   m_useUpdate: 0
-  m_height: 176
+  m_height: 200
   m_width: 216
   m_x: 12
   m_y: -240
@@ -977,7 +924,7 @@ MonoBehaviour:
   m_version: 1
   m_description: 
   m_id: b7a4a4ea-4797-4a27-8005-582d3180546c
-  m_lastModified: 132590812884881021
+  m_lastModified: 132591413184047970
 --- !u!114 &1047637189615120953
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1245,6 +1192,13 @@ MonoBehaviour:
       m_inputSocketId: 216eed6e-173c-46ce-acd7-c4bb29fe40f8
       m_outputNodeId: b32ad011-a1cf-4275-8b1e-2f17bc545c17
       m_outputSocketId: f0546609-e10d-4328-83f0-e23f799a3a77
+    - m_inputConnectionPoint: {x: -2, y: 4}
+      m_outputConnectionPoint: {x: 202, y: 4}
+      m_id: d6f447b8-6088-479f-be1d-acd5b58a8faa
+      m_inputNodeId: 869ed8d4-c60d-42d1-9499-66451c1a0272
+      m_inputSocketId: 216eed6e-173c-46ce-acd7-c4bb29fe40f8
+      m_outputNodeId: 9d5452df-14ca-4b77-a140-20807974c50a
+      m_outputSocketId: 1479e5c4-498b-40b3-a06e-c77f031312f8
     m_connectionPoints:
     - {x: -2, y: 4}
     - {x: 202, y: 4}
@@ -1314,98 +1268,3 @@ MonoBehaviour:
     InstantAction: 0
     Name: SceneChange
   m_onExitHideViews: []
---- !u!114 &8963536142219400770
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a651565835d4deb9517969e9738bc56, type: 3}
-  m_Name: WaitNode
-  m_EditorClassIdentifier: 
-  ErrorNodeNameIsEmpty: 0
-  ErrorDuplicateNameFoundInGraph: 0
-  m_inputSockets:
-  - m_connectionMode: 1
-    m_connections: []
-    m_connectionPoints:
-    - {x: -2, y: 4}
-    - {x: 202, y: 4}
-    m_direction: 0
-    m_canBeDeleted: 0
-    m_canBeReordered: 0
-    m_curveModifier: 0
-    m_height: 24
-    m_width: 216
-    m_x: 0
-    m_y: 38
-    m_id: 6d2b86ab-76e6-4523-b6cc-f2c10fe1a8e2
-    m_nodeId: 8615237b-f2a8-4a31-9bee-32ac31060fd5
-    m_socketName: InputSocket_0
-    m_value: '{}'
-    m_valueTypeQualifiedName: Doozy.Engine.Nody.Connections.PassthroughConnection,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_outputSockets:
-  - m_connectionMode: 0
-    m_connections: []
-    m_connectionPoints:
-    - {x: -2, y: 4}
-    - {x: 202, y: 4}
-    m_direction: 1
-    m_canBeDeleted: 0
-    m_canBeReordered: 0
-    m_curveModifier: 0
-    m_height: 24
-    m_width: 216
-    m_x: 0
-    m_y: 62
-    m_id: 07ea9c5a-f955-4cbf-893a-7d992489d01c
-    m_nodeId: 8615237b-f2a8-4a31-9bee-32ac31060fd5
-    m_socketName: OutputSocket_0
-    m_value: '{}'
-    m_valueTypeQualifiedName: Doozy.Engine.Nody.Connections.PassthroughConnection,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_nodeType: 4
-  m_allowDuplicateNodeName: 1
-  m_allowEmptyNodeName: 0
-  m_canBeDeleted: 1
-  m_debugMode: 0
-  m_useFixedUpdate: 0
-  m_useLateUpdate: 0
-  m_useUpdate: 0
-  m_height: 156
-  m_width: 216
-  m_x: 41.00699
-  m_y: -16.31807
-  m_minimumInputSocketsCount: 1
-  m_minimumOutputSocketsCount: 1
-  m_graphId: b7a4a4ea-4797-4a27-8005-582d3180546c
-  m_id: 8615237b-f2a8-4a31-9bee-32ac31060fd5
-  m_name: Wait
-  m_notes: 
-  ErrorNoGameEvent: 0
-  ErrorNoSceneName: 0
-  ErrorBadBuildIndex: 0
-  GetSceneBy: 0
-  WaitFor: 0
-  AnyValue: 0
-  IgnoreUnityTimescale: 1
-  RandomDuration: 0
-  Duration: 1
-  DurationMax: 1
-  DurationMin: 0
-  SceneBuildIndex: 0
-  GameEvent: 
-  SceneName: 
-  UIViewTriggerAction: 1
-  ViewCategory: General
-  ViewName: Unnamed
-  UIButtonTriggerAction: 0
-  ButtonCategory: General
-  ButtonName: Unnamed
-  UIDrawerTriggerAction: 0
-  DrawerName: Unnamed
-  CustomDrawerName: 0
