@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneChangeAnimation
       objectReference: {fileID: 0}
+    - target: {fileID: 5321754770893081064, guid: 7db41eef43a79e34583f7c484df60766,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5463227529511322083, guid: 7db41eef43a79e34583f7c484df60766,
         type: 3}
       propertyPath: m_Pivot.x
@@ -943,6 +948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PauseView
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501473175917847017, guid: 5cf05b68dc581654e856be617f779e4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cf05b68dc581654e856be617f779e4f, type: 3}

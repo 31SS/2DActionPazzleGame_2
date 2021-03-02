@@ -111,7 +111,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     void GameOpening()
     {
         currentState = GameState.Opening;
-        Time.timeScale = 1f;
+        // Time.timeScale = 1f;
         //Sound.StopBgm();
         // Sound.PlayBgm("Title");
     }
@@ -148,6 +148,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     {
         GameEventMessage.SendEvent(eventName[3]);
         stage++;
+        dispatch(GameState.Playing_Heart0);
         // gameClearCanvasClone = Instantiate(gameClearCanvasPrefab);
         //後の処理はgameClearCanvasCloneで処理される。
     }
