@@ -420,8 +420,8 @@ MonoBehaviour:
       GameEvents: []
       SoundData:
         SoundSource: 0
-        DatabaseName: General
-        SoundName: No Sound
+        DatabaseName: Example Slides
+        SoundName: Turn Page
         AudioClip: {fileID: 0}
         OutputAudioMixerGroup: {fileID: 0}
     PresetCategory: Fade
@@ -1076,12 +1076,12 @@ PrefabInstance:
     - target: {fileID: 3012517083711003351, guid: dd21d3a06c0d5e441bd7a6815579881b,
         type: 3}
       propertyPath: ButtonName
-      value: Title
+      value: HowToPlay
       objectReference: {fileID: 0}
     - target: {fileID: 3012517083711003351, guid: dd21d3a06c0d5e441bd7a6815579881b,
         type: 3}
       propertyPath: ButtonCategory
-      value: Pause
+      value: Option
       objectReference: {fileID: 0}
     - target: {fileID: 3012517083711003351, guid: dd21d3a06c0d5e441bd7a6815579881b,
         type: 3}
@@ -1625,7 +1625,7 @@ PrefabInstance:
     - target: {fileID: 8804608659576842100, guid: dd21d3a06c0d5e441bd7a6815579881b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 82
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 8804608659576842100, guid: dd21d3a06c0d5e441bd7a6815579881b,
         type: 3}

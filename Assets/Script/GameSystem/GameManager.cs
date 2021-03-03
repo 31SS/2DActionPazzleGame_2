@@ -12,7 +12,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     public List<string> eventName;
    public enum GameState
     {
-        Opening,
+        Title,
         Playing_Heart0,
         Playing_Heart1,
         Clear,
@@ -70,8 +70,8 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         currentState = state;
         switch (state)
         {
-            case GameState.Opening:
-                GameOpening();
+            case GameState.Title:
+                GameTitle();
                 break;
             case GameState.Playing_Heart0:
                 GameStart();
@@ -108,9 +108,10 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     }
 
     // オープニング処理
-    void GameOpening()
+    void GameTitle()
     {
-        currentState = GameState.Opening;
+        currentState = GameState.Title;
+        stage = 0;
         // Time.timeScale = 1f;
         //Sound.StopBgm();
         // Sound.PlayBgm("Title");

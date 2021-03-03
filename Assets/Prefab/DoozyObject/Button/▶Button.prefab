@@ -11,6 +11,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u25B6Button"
       objectReference: {fileID: 0}
+    - target: {fileID: 3012517083711003351, guid: dd21d3a06c0d5e441bd7a6815579881b,
+        type: 3}
+      propertyPath: ButtonName
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012517083711003351, guid: dd21d3a06c0d5e441bd7a6815579881b,
+        type: 3}
+      propertyPath: ButtonCategory
+      value: Option
+      objectReference: {fileID: 0}
     - target: {fileID: 5891315606674021464, guid: dd21d3a06c0d5e441bd7a6815579881b,
         type: 3}
       propertyPath: m_text
