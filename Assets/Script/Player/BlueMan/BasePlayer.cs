@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using CharacterState;
-using Cysharp.Threading.Tasks;
-using UniRx;
-using Unity.Mathematics;
 
 public class BasePlayer : MonoBehaviour
 {

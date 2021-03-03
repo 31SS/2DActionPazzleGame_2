@@ -116,3 +116,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_animator: {fileID: 1045481342932085289}
+  endTransitionName: DamageEffect -> Exit

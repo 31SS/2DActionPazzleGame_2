@@ -88,6 +88,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
                 //}
                 break;
         }
+        Debug.Log(currentState);
     }
 
     private void Update()
@@ -130,26 +131,10 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         //Sound.StopBgm();
         // Sound.PlayBgm("Main");
     }
-
-    public void JudgeMove()
-    {
-        if (pauseFlag == false)
-        {
-            Time.timeScale = 0f;
-            pauseFlag = true;
-        }
-        else if (pauseFlag == true)
-        {
-            Time.timeScale = 1f;
-            pauseFlag = false;
-        }
-    }
-
     public void GameClear()
     {
         GameEventMessage.SendEvent(eventName[3]);
         stage++;
-        dispatch(GameState.Playing_Heart0);
         // gameClearCanvasClone = Instantiate(gameClearCanvasPrefab);
         //後の処理はgameClearCanvasCloneで処理される。
     }
@@ -160,7 +145,6 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         Observable.Timer(TimeSpan.FromSeconds(1)).Subscribe(_ =>
         {
             GameEventMessage.SendEvent(eventName[2]);
-            dispatch(GameState.Playing_Heart0);
         });
     }
 

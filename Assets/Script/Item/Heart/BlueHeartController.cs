@@ -1,30 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BlueHeartController : MonoBehaviour, IGetableBlueHeart
+﻿public class BlueHeartController : BaseHeart, IGetableBlueHeart
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void GotBlueHeart()
     {
+        var nowTransform = transform;
         if (GameManager.Instance.currentState == GameManager.GameState.Playing_Heart0)
         {
             GameManager.Instance.dispatch(GameManager.GameState.Playing_Heart1);
+            Instantiate(getItemEffect, nowTransform.position, nowTransform.rotation);
             Destroy(gameObject);
             return;
         }
         GameManager.Instance.dispatch(GameManager.GameState.Clear);
+        Instantiate(getItemEffect, nowTransform.position, nowTransform.rotation);
         Destroy(gameObject);
     }
 }

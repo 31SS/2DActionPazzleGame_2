@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class BaseHeart : MonoBehaviour
 {
-    // protected 
+    [SerializeField] protected GameObject getItemEffect;
 }

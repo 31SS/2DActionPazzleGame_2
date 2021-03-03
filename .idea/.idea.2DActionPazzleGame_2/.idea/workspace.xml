@@ -1,31 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5e76f2cc-ae41-4725-a496-994782a89e95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Other/AngelRing.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Other/AngelRing.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Other/AngelRingMotion.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Other/AngelRingMotion.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Editor/Nody/Settings/NodyWindowSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Option.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Option.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Pause.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Doozy/Engine/Resources/Data/UIButton/UIButton_Pause.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graph/FirstTitleController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/FirstTitleController.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graph/PauseController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/PauseController.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graph/TitleController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/TitleController.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_1 Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_1 Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/OptionView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/OptionView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graph/1_SceneChanger.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graph/1_SceneChanger.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Hit (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Hit (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/1st_ClearView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/1st_ClearView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/2nd_ClearView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/2nd_ClearView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/3rd_ClearView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/Clear/3rd_ClearView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Item/BlueManHeart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Item/BlueManHeart.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Item/MaskManHeart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Item/MaskManHeart.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/BlueMan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/BlueMan.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/2_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstTitleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstTitleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Effect/DamageEffectController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Effect/DamageEffectController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +86,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameSystem/DispatchGameState.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Script/GameSystem/DispatchGameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PCharacterState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Effect/DamageEffectController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" />
       </list>
     </option>
   </component>
@@ -48,6 +111,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -90,7 +154,7 @@
       <updated>1614607813391</updated>
       <workItem from="1614607820083" duration="838000" />
       <workItem from="1614665681120" duration="697000" />
-      <workItem from="1614781344281" duration="439000" />
+      <workItem from="1614781344281" duration="3703000" />
     </task>
     <servers />
   </component>
@@ -99,6 +163,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

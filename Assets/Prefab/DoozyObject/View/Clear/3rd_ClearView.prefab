@@ -25,12 +25,12 @@ PrefabInstance:
     - target: {fileID: 2930489630216861268, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_text
-      value: Title
+      value: Next
       objectReference: {fileID: 0}
     - target: {fileID: 2930489630216861268, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4280478473918318779, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
@@ -166,6 +166,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811759864022331611, guid: e704c0686420c0945ab4eefb79e31a48,
+        type: 3}
+      propertyPath: ButtonName
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811759864022331611, guid: e704c0686420c0945ab4eefb79e31a48,
+        type: 3}
+      propertyPath: ButtonCategory
+      value: Clear
       objectReference: {fileID: 0}
     - target: {fileID: 6357812995976593080, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}

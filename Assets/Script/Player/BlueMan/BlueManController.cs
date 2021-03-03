@@ -26,7 +26,7 @@ public class BlueManController : BasePlayer
             .Where(_ => StateProcessor.State.Value.GetStateName() != _prevStateName)
             .Subscribe(_ =>
             {
-                Debug.Log("Now State:" + StateProcessor.State.Value.GetStateName());
+                // Debug.Log("Now State:" + StateProcessor.State.Value.GetStateName());
                 _prevStateName = StateProcessor.State.Value.GetStateName();
                 StateProcessor.Execute();
             })

@@ -1321,9 +1321,10 @@
           <e p="BoxcastTest.cs" t="Include" />
           <e p="Demo.cs" t="Include" />
           <e p="Effect" t="Include">
-            <e p="DamageEffectController.cs" t="Include" />
+            <e p="EffectController.cs" t="Include" />
           </e>
           <e p="GameSystem" t="Include">
+            <e p="DispatchGameState.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="RaycastMask.cs" t="Include" />
             <e p="SceneChangeManager.cs" t="Include" />

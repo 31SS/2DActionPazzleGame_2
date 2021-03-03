@@ -120,12 +120,12 @@ PrefabInstance:
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_text
-      value: "1st Stage \n\u300COne Way\u300D"
+      value: "1st Stage \n\u300CTutorial-Like\u300D"
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_fontSize
-      value: 38.05
+      value: 50.45
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
@@ -135,17 +135,27 @@ PrefabInstance:
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 20
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811759864022331611, guid: e704c0686420c0945ab4eefb79e31a48,
+        type: 3}
+      propertyPath: ButtonName
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811759864022331611, guid: e704c0686420c0945ab4eefb79e31a48,
+        type: 3}
+      propertyPath: ButtonCategory
+      value: Clear
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e704c0686420c0945ab4eefb79e31a48, type: 3}

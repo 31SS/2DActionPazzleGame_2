@@ -26,7 +26,7 @@ public class MaskManController: BasePlayer
             .Where(_ => StateProcessor.State.Value.GetStateName() != _prevStateName)
             .Subscribe(_ =>
             {
-                Debug.Log("Now State:" + StateProcessor.State.Value.GetStateName());
+                // Debug.Log("Now State:" + StateProcessor.State.Value.GetStateName());
                 _prevStateName = StateProcessor.State.Value.GetStateName();
                 StateProcessor.Execute();
             })
@@ -46,7 +46,6 @@ public class MaskManController: BasePlayer
             {
                 _playerMover.Jump(m_animator, playerParameter.JUMP_POWER);
                 StateProcessor.State.Value = StateAir;
-                Debug.Log("Jump");
             }
             else if (Mathf.Abs(_playerInput.X) > 0)
             {
