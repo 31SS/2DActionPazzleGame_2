@@ -16,5 +16,6 @@ MonoBehaviour:
   DatabaseType: 2
   Names:
   - Sound
-  - HowToPlay
+  - HowToPlay 1
   - MainOption
+  - HowToPlay 2
