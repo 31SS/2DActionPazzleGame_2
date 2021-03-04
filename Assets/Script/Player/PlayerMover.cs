@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using KanKikuchi.AudioManager;
+using UnityEngine;
 //Playerの移動とジャンプを行う処理
 public class PlayerMover
 {
@@ -20,5 +21,6 @@ public class PlayerMover
     {
         m_animator.SetTrigger("Jump");
         m_rigidbody2D.AddForce(Vector2.up * jumpPower);
+        SEManager.Instance.Play(SEPath.JUMP, volumeRate: 0.5f);
     }
 }

@@ -4,7 +4,7 @@ public class DispatchGameState : MonoBehaviour
 {
     [SerializeField]
     private GameManager.GameState nowGameState;
-    private void Awake()
+    private void Start()
     {
         GameManager.Instance.dispatch(nowGameState);
     }

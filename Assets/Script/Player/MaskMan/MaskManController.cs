@@ -3,22 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CharacterState;
+using KanKikuchi.AudioManager;
 using UniRx;
 
 public class MaskManController: BasePlayer
 {
-    // private void Awake()
-    // {
-    //     StateProcessor.State.Value = StateIdle;
-    //     StateIdle.ExecAction = Idle;
-    //     StateRun.ExecAction = Run;
-    //     StateAir.ExecAction = Air;
-    //     StateAttack.ExecAction = Attack;
-    //
-    //     _playerInput = new PlayerInput();
-    //     _playerMover = new PlayerMover(m_rigidbody2D);
-    // }
-
     private void Start()
     {
         //ステートの値が変更されたら実行処理を行うようにする
@@ -64,6 +53,11 @@ public class MaskManController: BasePlayer
     protected override void OnTriggerEnter2D(Collider2D other)
     {
         base.OnTriggerEnter2D(other);
-        other.GetComponent<IGetableMaskHeart>()?.GotMaskHeart();
+        var isGetableMaskHeart = other.GetComponent<IGetableMaskHeart>();
+        if (isGetableMaskHeart != null)
+        {
+            isGetableMaskHeart.GotMaskHeart();
+            SEManager.Instance.Play(SEPath.GET_ITEM, volumeRate:0.5f);
+        }
     }
 }

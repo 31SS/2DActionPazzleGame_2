@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using CharacterState;
+using KanKikuchi.AudioManager;
 
 public class BasePlayer : MonoBehaviour
 {
@@ -119,12 +120,9 @@ public class BasePlayer : MonoBehaviour
     private void DamageAct()
     {
         GameManager.Instance.dispatch(GameManager.GameState.Over);
+        SEManager.Instance.Play(SEPath.DAMAGE);
         var position = transform.position;
         var rotation = transform.rotation;
-        // Damage();
-        // m_rigidbody2D.AddForce(playerParameter.KNOCKBACK_POWER);
-        // m_rigidbody2D.velocity = new Vector2(transform.right.x * playerParameter.KNOCKBACK_POWER.x, transform.up.y * playerParameter.KNOCKBACK_POWER.y);
-        // Instantiate(angelRing, transform.position, quaternion.identity);
         Instantiate(damageEffect, position, rotation);
         Instantiate(angelRing, position, rotation);
         if (gameObject != null)

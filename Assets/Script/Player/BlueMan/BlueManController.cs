@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CharacterState;
+using KanKikuchi.AudioManager;
 using UniRx;
 
 public class BlueManController : BasePlayer
@@ -64,6 +65,11 @@ public class BlueManController : BasePlayer
   protected override void OnTriggerEnter2D(Collider2D other)
   {
       base.OnTriggerEnter2D(other);
-      other.GetComponent<IGetableBlueHeart>()?.GotBlueHeart();
+      var isGetableBlueHeart = other.GetComponent<IGetableBlueHeart>();
+      if (isGetableBlueHeart != null)
+      {
+          isGetableBlueHeart.GotBlueHeart();
+          SEManager.Instance.Play(SEPath.GET_ITEM, volumeRate:0.5f);
+      }
   }
 }

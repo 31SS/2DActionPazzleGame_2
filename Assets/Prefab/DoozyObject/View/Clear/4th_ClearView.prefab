@@ -1651,7 +1651,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Last Stage\n\u300CArrival\u300D"
+  m_text: "Last Stage\n\u300CConfluence\u300D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -1721,7 +1721,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 5789285353013088496}
-    characterCount: 20
+    characterCount: 23
     spriteCount: 0
     spaceCount: 2
     wordCount: 3

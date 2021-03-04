@@ -9,6 +9,40 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AudioManager_KanKikuchi" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AudioManagerSettingEditor.cs" t="Include" />
+            <e p="AudioPathCreator.cs" t="Include" />
+            <e p="AudioPostProcessor.cs" t="Include" />
+            <e p="ConstantsClassCreator.cs" t="Include" />
+          </e>
+          <e p="Sample" t="Include">
+            <e p="AssistantSample" t="Include">
+              <e p="AssistantSampleButton.cs" t="Include" />
+            </e>
+            <e p="BasicSample" t="Include">
+              <e p="BasicSampleButton.cs" t="Include" />
+              <e p="BasicSampleSlider.cs" t="Include" />
+            </e>
+            <e p="BGMSwitchSample" t="Include">
+              <e p="BGMSwitchSampleButton.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AudioAssistant.cs" t="Include" />
+            <e p="AudioManager.cs" t="Include" />
+            <e p="AudioManagerSetting.cs" t="Include" />
+            <e p="AudioPlayer.cs" t="Include" />
+            <e p="BGMAssistant.cs" t="Include" />
+            <e p="BGMManager.cs" t="Include" />
+            <e p="BGMPath.cs" t="Include" />
+            <e p="BGMSwitcher.cs" t="Include" />
+            <e p="SEAssistant.cs" t="Include" />
+            <e p="SEManager.cs" t="Include" />
+            <e p="SEPath.cs" t="Include" />
+            <e p="SingletonMonoBehaviour.cs" t="Include" />
+          </e>
+        </e>
         <e p="Doozy" t="Include">
           <e p="Editor" t="Include">
             <e p="Drawers" t="Include">
@@ -1319,7 +1353,9 @@
         </e>
         <e p="Script" t="Include">
           <e p="BoxcastTest.cs" t="Include" />
-          <e p="Demo.cs" t="Include" />
+          <e p="Draft" t="Include">
+            <e p="IPlayerInput.cs" t="Include" />
+          </e>
           <e p="Effect" t="Include">
             <e p="EffectController.cs" t="Include" />
           </e>
@@ -1328,6 +1364,8 @@
             <e p="GameManager.cs" t="Include" />
             <e p="RaycastMask.cs" t="Include" />
             <e p="SceneChangeManager.cs" t="Include" />
+            <e p="SoundManager.cs" t="Include" />
+            <e p="VolumeController.cs" t="Include" />
           </e>
           <e p="Interface" t="Include">
             <e p="IBreakeable.cs" t="Include" />
@@ -1335,7 +1373,6 @@
             <e p="IGetableBlueHeart.cs" t="Include" />
             <e p="IGetableMaskHeart.cs" t="Include" />
             <e p="IPickupable.cs" t="Include" />
-            <e p="IPlayerInput.cs" t="Include" />
             <e p="ISteponable.cs" t="Include" />
           </e>
           <e p="Item" t="Include">
@@ -1345,6 +1382,7 @@
               <e p="BombController.cs" t="Include" />
             </e>
             <e p="CoinController.cs" t="Include" />
+            <e p="DamageableObject.cs" t="Include" />
             <e p="Heart" t="Include">
               <e p="BaseHeart.cs" t="Include" />
               <e p="BlueHeartController.cs" t="Include" />
@@ -1355,8 +1393,6 @@
           </e>
           <e p="ObstacleObject" t="Include">
             <e p="BlockController.cs" t="Include" />
-            <e p="BrokenBlockController.cs" t="Include" />
-            <e p="DamageableObject.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="AngelRingContoroller.cs" t="Include" />
@@ -1375,24 +1411,8 @@
             <e p="PlayerParameter_B.cs" t="Include" />
             <e p="UnityChan2DController.cs" t="Include" />
           </e>
-          <e p="RaycastTest.cs" t="Include" />
-          <e p="SceneChanger.cs" t="Include" />
           <e p="Singleton" t="Include">
             <e p="SingletonMonoBehaviour.cs" t="Include" />
-          </e>
-          <e p="SnapToGrid.cs" t="Include" />
-          <e p="SpherCastTest.cs" t="Include" />
-          <e p="Uni_GameController" t="Include">
-            <e p="AudioSourceController.cs" t="Include" />
-            <e p="CameraController.cs" t="Include" />
-            <e p="GameParameter.cs" t="Include" />
-            <e p="IntroCameraController.cs" t="Include" />
-            <e p="LoadingController.cs" t="Include" />
-            <e p="Loop.cs" t="Include" />
-            <e p="PointController.cs" t="Include" />
-            <e p="SceneNameAttribute.cs" t="Include" />
-            <e p="StartController.cs" t="Include" />
-            <e p="TimeController.cs" t="Include" />
           </e>
         </e>
         <e p="Sprite Pack" t="Include">
@@ -1426,15 +1446,6 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
-        </e>
-        <e p="UnityChan2D" t="Include">
-          <e p="Demo" t="Include">
-            <e p="Sounds" t="Include">
-              <e p="Voice" t="Include">
-                <e p="unity-chan_voice_list.txt" t="Include" />
-              </e>
-            </e>
           </e>
         </e>
       </e>

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using KanKikuchi.AudioManager;
+using UnityEngine;
 //Bombの爆発処理
 public class BombBlast : MonoBehaviour, IDamageable
 {
@@ -7,6 +9,11 @@ public class BombBlast : MonoBehaviour, IDamageable
     private void Awake()
     {
         _bombAnimation = new BombAnimation(GetComponent<Animator>());
+    }
+
+    private void Start()
+    {
+        SEManager.Instance.Play(SEPath.EXPLOSION);
     }
 
     private void Update()

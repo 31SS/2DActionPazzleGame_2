@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Doozy.Engine;
 using Doozy.Engine.Nody;
+using KanKikuchi.AudioManager;
 using UniRx;
 
 public class GameManager : SingletonMonoBehaviour<GameManager>
@@ -20,52 +21,23 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     }
 
     // public GameState currentState{ get; private set; } = GameState.Opening;
-    public GameState currentState{ get; private set; } = GameState.Playing_Heart0;
+    public GameState currentState{ get; private set; } = GameState.Title;
+    // public GameState currentState{ get; private set; } = GameState.Playing_Heart0;
     private int stage{ get; set; } = 1;
     private GraphController _graphController;
 
     private bool pauseFlag = false;
-    // [SerializeField] private GameObject panel;
-    // [SerializeField] private Text text;
-    // [SerializeField] private GameObject gameClearCanvasPrefab;
-    // private GameObject gameClearCanvasClone;
-    // [SerializeField] private GameObject gameOverCanvasPrefab;
-    // private GameObject gameOverCanvasClone;
-    // private Button[] buttons;
 
+    private GameState oldState = GameState.Title;
     private void Start()
     {
-        // Sound.LoadBgm("Title", "TitleBGM");
-        // Sound.LoadBgm("Main", "MainBGM");
-        // Sound.LoadBgm("BossWarning", "BossWarningBGM");
-        // Sound.LoadBgm("Boss", "BossBGM");
-        // Sound.LoadSe("PlayerAttack1", "PlayerAttackSE1");
-        // Sound.LoadSe("PlayerAttack2", "PlayerAttackSE2");
-        // Sound.LoadSe("PlayerAttack3", "PlayerAttackSE3");
-        // Sound.LoadSe("PlayerDamage1", "PlayerDamageSE1");
-        // Sound.LoadSe("PlayerDamage2", "PlayerDamageSE2");
-        // Sound.LoadSe("PlayerWin", "PlayerWinSE");
-        // Sound.LoadSe("PlayerDead", "PlayerDeadSE");
-        // Sound.LoadSe("TitleButton", "TitleButtonSE");
-        // Sound.LoadSe("BlockChange", "BlockChangeSE");
-        // Sound.LoadSe("GameClear", "GameClearBGM");
-        // Sound.LoadSe("GameOver", "GameOverBGM");
-        // //以下未実装
-        // Sound.LoadSe("Devil", "DevilSE");
-        // Sound.LoadSe("Bug", "BugSE");
-        // Sound.LoadSe("Gunner", "GunnerSE");
-        // Sound.LoadSe("GunnerShot", "GunnerShotSE");
-        // Sound.LoadSe("Dragon", "DragonSE");//ドラゴンの断末魔
-        // Sound.LoadSe("DragonFire", "DragonFireSE");
-        // Sound.LoadSe("EnemyAttack", "EnemyAttackSE");//敵の体当たり
-        // dispatch(GameState.Opening);
-        
+        BGMManager.Instance.Play(BGMPath.TITLE_BGM);
     }
 
     // 状態による振り分け処理
     public void dispatch(GameState state)
     {
-        GameState oldState = currentState;
+        oldState = currentState;
 
         currentState = state;
         switch (state)
@@ -113,66 +85,34 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     {
         currentState = GameState.Title;
         stage = 0;
-        // Time.timeScale = 1f;
-        //Sound.StopBgm();
-        // Sound.PlayBgm("Title");
+        if (BGMManager.Instance.IsPlaying())
+        {
+            BGMSwitcher.FadeOutAndFadeIn(BGMPath.TITLE_BGM);
+        }
+        else
+        {
+            BGMManager.Instance.Play(BGMPath.TITLE_BGM);
+            Debug.Log("aaa");
+        }
     }
 
-    void GameStart()
+    private void GameStart()
     {
-        // if (gameOverCanvasClone)
-        // {
-        //     Destroy(gameOverCanvasClone);
-        // }
-        // else if (gameClearCanvasClone)
-        // {
-        //     Destroy(gameClearCanvasClone);
-        // }
-        //Sound.StopBgm();
-        // Sound.PlayBgm("Main");
+        if (oldState == GameState.Title)
+        {
+            BGMSwitcher.FadeOutAndFadeIn(BGMPath.PAZZLE_BGM);
+        }
     }
-    public void GameClear()
+    private void GameClear()
     {
         GameEventMessage.SendEvent(eventName[3]);
         stage++;
-        // gameClearCanvasClone = Instantiate(gameClearCanvasPrefab);
-        //後の処理はgameClearCanvasCloneで処理される。
     }
-    public void GameOver()
+    private void GameOver()
     {
-        // gameOverCanvasClone = Instantiate(gameOverCanvasPrefab);
-        //後の処理はgameOverCanvasCloneで処理される。
         Observable.Timer(TimeSpan.FromSeconds(1)).Subscribe(_ =>
         {
             GameEventMessage.SendEvent(eventName[2]);
         });
-    }
-
-    public void Retry()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-    
-    //ここからタイトルのボタン
-    public void StartGame()
-    {
-        // NowLoading.sceneName = "PlayerScene";
-        SceneManager.LoadScene("NowLoading");//Unityでの遷移の設定はまだしてない?
-        //dispatch(GameState.Playing);
-    }
-    public void ExplainImage()
-    {
-
-    }
-    public void ExitGame()
-    {
-        Application.Quit();
-        Debug.Log("終わり");
-    }
-    //ここまでタイトルのボタン
-    public void TitleGame()
-    {
-        // NowLoading.sceneName = "TitleScene";
-        SceneManager.LoadScene("NowLoading");
     }
 }

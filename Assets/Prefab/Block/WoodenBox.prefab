@@ -121,4 +121,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858109ed333bc0c43ab93de97f65d1a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakBlock: {fileID: 8300000, guid: ac3f258d33aacc9409902f3265e20813, type: 3}
+  damageEffect: {fileID: 8398109967018806426, guid: 98b19f0d009e57e47b50d534f1df0170,
+    type: 3}

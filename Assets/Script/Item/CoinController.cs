@@ -7,8 +7,6 @@ public class CoinController : MonoBehaviour , IPickupable
 
     public void PickedUp()
     {
-        PointController.instance.AddCoin();
-        AudioSourceController.instance.PlayOneShot(getCoin);
         Destroy(gameObject);
     }
 }

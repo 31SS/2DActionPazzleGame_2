@@ -140,7 +140,7 @@ PrefabInstance:
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_text
-      value: "3rd Stage\n\u300CCooperation\u300D"
+      value: "3rd Stage\n\u300CRescue\u300D"
       objectReference: {fileID: 0}
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
@@ -165,7 +165,7 @@ PrefabInstance:
     - target: {fileID: 4720244193117304582, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 23
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5811759864022331611, guid: e704c0686420c0945ab4eefb79e31a48,
         type: 3}
