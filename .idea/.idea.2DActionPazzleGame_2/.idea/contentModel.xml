@@ -875,9 +875,6 @@
         <e p="Font" t="Include">
           <e p="TMP_japanese_full.txt" t="Include" />
         </e>
-        <e p="Medieval_pixel_art_asset_FREE" t="Include">
-          <e p="pixel_snapping_README.txt" t="Include" />
-        </e>
         <e p="Movinarc" t="Include">
           <e p="PackageUninstaller" t="Include">
             <e p="Editor" t="Include">
@@ -887,16 +884,6 @@
               <e p="TreeView.cs" t="Include" />
             </e>
             <e p="readme.txt" t="Include" />
-          </e>
-        </e>
-        <e p="naichilab" t="Include">
-          <e p="FadeManager" t="Include">
-            <e p="Sample" t="Include">
-              <e p="FadeSample.cs" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="FadeManager.cs" t="Include" />
-            </e>
           </e>
         </e>
         <e p="Plugins" t="Include">
@@ -1385,7 +1372,6 @@
             <e p="DispatchGameState.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="RaycastMask.cs" t="Include" />
-            <e p="SceneChangeManager.cs" t="Include" />
           </e>
           <e p="Interface" t="Include">
             <e p="IBreakeable.cs" t="Include" />
@@ -1430,11 +1416,6 @@
           </e>
           <e p="Singleton" t="Include">
             <e p="SingletonMonoBehaviour.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Sprite Pack" t="Include">
-          <e p="Tap and Fly" t="Include">
-            <e p="readme.txt" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

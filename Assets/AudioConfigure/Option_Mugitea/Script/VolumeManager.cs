@@ -15,8 +15,8 @@
         [SerializeField, Range(0f, 100f)] private int defaultSEVolume = 50;
 
         [Header("音量の最大値.")]
-        [Range(1f, 100f)] public int maxBGMVolume = 100;
-        [Range(1f, 100f)] public int maxSEVolume = 100;
+        [Range(1f, 100f)] public int maxBGMVolume = 85;
+        [Range(1f, 100f)] public int maxSEVolume = 75;
 
         private float bgmVolume;
         private float seVolume;
@@ -26,6 +26,7 @@
         [NonSerialized] public readonly string seVolumeName = "SEVolume";
         [NonSerialized] public readonly string alertsVolumeName = "AlertsVolume";
         [NonSerialized] public readonly string uiVolumeName = "UIVolume";
+        // [NonSerialized] public readonly string masterVolumeName = "MasterVolume";
 
         private AudioMixer audioMixer;
         [SerializeField] private AudioMixer exampleAudioMixer;
@@ -123,6 +124,7 @@
             audioMixer.SetFloat(seVolumeName, value);
             exampleAudioMixer.SetFloat(alertsVolumeName, value);
             exampleAudioMixer.SetFloat(uiVolumeName, value);
+            // exampleAudioMixer.SetFloat(masterVolumeName, value);
             seVolume = value;
         }
 

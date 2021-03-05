@@ -8,18 +8,6 @@ using UniRx;
 
 public class BlueManController : BasePlayer
 {
-    // private void Awake()
-    // {
-    //     StateProcessor.State.Value = StateIdle;
-    //     StateIdle.ExecAction = Idle;
-    //     StateRun.ExecAction = Run;
-    //     StateAir.ExecAction = Air;
-    //     StateAttack.ExecAction = Attack;
-    //
-    //     _playerInput = new PlayerInput();
-    //     _playerMover = new PlayerMover(m_rigidbody2D);
-    // }
-
     private void Start()
     {
         //ステートの値が変更されたら実行処理を行うようにする
@@ -27,7 +15,6 @@ public class BlueManController : BasePlayer
             .Where(_ => StateProcessor.State.Value.GetStateName() != _prevStateName)
             .Subscribe(_ =>
             {
-                // Debug.Log("Now State:" + StateProcessor.State.Value.GetStateName());
                 _prevStateName = StateProcessor.State.Value.GetStateName();
                 StateProcessor.Execute();
             })

@@ -29,10 +29,6 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
     private bool pauseFlag = false;
 
     private GameState oldState = GameState.Title;
-    private void Start()
-    {
-        BGMManager.Instance.Play(BGMPath.TITLE_BGM);
-    }
 
     // 状態による振り分け処理
     public void dispatch(GameState state)
@@ -92,7 +88,6 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         else
         {
             BGMManager.Instance.Play(BGMPath.TITLE_BGM);
-            Debug.Log("aaa");
         }
     }
 
