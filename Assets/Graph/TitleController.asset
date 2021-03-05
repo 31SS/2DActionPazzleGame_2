@@ -239,10 +239,16 @@ MonoBehaviour:
   m_id: 78a9e854-ee7e-47be-a1c5-f272bf14efa6
   m_name: Sound
   m_notes: 
-  m_onEnterShowViews: []
+  m_onEnterShowViews:
+  - Category: Option
+    InstantAction: 0
+    Name: Sound
   m_onEnterHideViews: []
   m_onExitShowViews: []
-  m_onExitHideViews: []
+  m_onExitHideViews:
+  - Category: Option
+    InstantAction: 0
+    Name: Sound
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

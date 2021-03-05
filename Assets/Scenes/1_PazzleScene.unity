@@ -1857,6 +1857,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 106794132598551316, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 106794132598551316, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 106794132624597137, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 106794132624597137, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 106794132624597137, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698149797757976599, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 713486903707545116, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1962,10 +1992,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1072623115947633227, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 50.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072623115947633227, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072623115947633227, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1072623115947633227, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2237427299167714472, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4174358620939654105, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4774886324157443908, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_Name
       value: MasterCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910700345447153078, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939021602559415494, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6513974976477974493, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
@@ -1977,6 +2047,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 571309306}
+    - target: {fileID: 8299721874264708973, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299721874643407331, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56da45226f83374fa9fedb445ba3c43, type: 3}
 --- !u!1 &651625750
