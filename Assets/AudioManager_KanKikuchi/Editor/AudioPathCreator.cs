@@ -32,15 +32,13 @@ public class AudioPathCreator : AssetPostprocessor {
 			importedAssets, deletedAssets, movedAssets, movedFromAssetPaths
 		};
 
-		//すぐにResources.LoadAllで取得出来ない場合もあるので間を開けて実行
-		EditorApplication.delayCall += () => {
-			if (ExistsPathInAssets(assetsList, BGM_DIRECTORY_PATH)) {
-				CreateBGMPath();
-			}
-			if (ExistsPathInAssets(assetsList, SE_DIRECTORY_PATH)) {
-				CreateSEPath();
-			}
-		};
+		if (ExistsPathInAssets(assetsList, BGM_DIRECTORY_PATH)) {
+			CreateBGMPath();
+		}
+
+		if (ExistsPathInAssets(assetsList, SE_DIRECTORY_PATH)) {
+			CreateSEPath();
+		}
 	}
 
 	//入力されたassetsのパスの中に、指定したパスが含まれるものが一つでもあるか

@@ -9,6 +9,28 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AudioConfigure" t="Include">
+          <e p="Option_Mugitea" t="Include">
+            <e p="Sample" t="Include">
+              <e p="OptionSample" t="Include">
+                <e p="AudioVolumeSample.cs" t="Include" />
+              </e>
+              <e p="TitleSample" t="Include">
+                <e p="TitleSample.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Script" t="Include">
+              <e p="BackButtonManager.cs" t="Include" />
+              <e p="BGMSliderController.cs" t="Include" />
+              <e p="BGMVolumeTextController.cs" t="Include" />
+              <e p="CheckSEButton.cs" t="Include" />
+              <e p="OptionManager.cs" t="Include" />
+              <e p="SESliderController.cs" t="Include" />
+              <e p="SEVolumeTextController.cs" t="Include" />
+              <e p="VolumeManager.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="AudioManager_KanKikuchi" t="Include">
           <e p="Editor" t="Include">
             <e p="AudioManagerSettingEditor.cs" t="Include" />
@@ -1364,8 +1386,6 @@
             <e p="GameManager.cs" t="Include" />
             <e p="RaycastMask.cs" t="Include" />
             <e p="SceneChangeManager.cs" t="Include" />
-            <e p="SoundManager.cs" t="Include" />
-            <e p="VolumeController.cs" t="Include" />
           </e>
           <e p="Interface" t="Include">
             <e p="IBreakeable.cs" t="Include" />
@@ -1390,9 +1410,6 @@
             </e>
             <e p="IncreaceItem.cs" t="Include" />
             <e p="SoilBlock.cs" t="Include" />
-          </e>
-          <e p="ObstacleObject" t="Include">
-            <e p="BlockController.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="AngelRingContoroller.cs" t="Include" />

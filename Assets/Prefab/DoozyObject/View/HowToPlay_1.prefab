@@ -26,7 +26,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83721023966817844}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.3125}
+  m_LocalPosition: {x: 0, y: 0, z: 6.3125005}
   m_LocalScale: {x: 0.643952, y: 0.643952, z: 0.80494}
   m_Children: []
   m_Father: {fileID: 4463600987856730072}
@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29.6, y: -41.4}
+  m_AnchoredPosition: {x: -27.118626, y: -41.629204}
   m_SizeDelta: {x: 43.832466, y: 43.832466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1127430467222919239
@@ -101,7 +101,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210891287220028398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.3125}
+  m_LocalPosition: {x: 0, y: 0, z: 6.3125005}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 4463600987856730072}
@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.85, y: -41.4}
+  m_AnchoredPosition: {x: -10.55308, y: -41.629204}
   m_SizeDelta: {x: 150.47794, y: 27.706497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4208181444442879211
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: or    Button
+  m_text: "or    \u30DC\u30BF\u30F3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 8411640393602604053}
-    characterCount: 12
+    characterCount: 9
     spriteCount: 0
     spaceCount: 4
     wordCount: 2
@@ -415,7 +415,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122099776007335181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.3125}
+  m_LocalPosition: {x: 0, y: 0, z: 6.3125005}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 4463600987856730072}
@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30.2, y: -15.3}
+  m_AnchoredPosition: {x: -25.047934, y: -14.710189}
   m_SizeDelta: {x: 110.82599, y: 27.706497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9106272600470187629
@@ -572,7 +572,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638409383763234459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.3125}
+  m_LocalPosition: {x: 0, y: 0, z: 6.3125005}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 4463600987856730072}
@@ -580,7 +580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105.899994, y: -12}
+  m_AnchoredPosition: {x: 126.112686, y: -12.639495}
   m_SizeDelta: {x: 149.6178, y: 25.630722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5756366259571924204
@@ -610,7 +610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u30DD\u30FC\u30BA\u753B\u9762\u8868\u793A"
+  m_text: "\u30DD\u30FC\u30BA\u753B\u9762\u3092\u8868\u793A"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 21.35
+  m_fontSize: 18.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 8485491864743144385}
-    characterCount: 7
+    characterCount: 8
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u30DE\u30B9\u30AF\u3068\n\u30AA\u30EC\u30F3\u30B8\u8272\u306E\u65B9\nBlueMan\u3068\u306F\n\u5DE6\u53F3\u9006\u5411\u304D\u306B\u8D70\u308B"
+  m_text: "\u30DE\u30B9\u30AF\u3067\n\u30AA\u30EC\u30F3\u30B8\u8272\u306E\u65B9\nBlueMan\u3068\u306F\n\u5DE6\u53F3\u9006\u5411\u304D\u306B\u8D70\u308B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -4836,7 +4836,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9092280481518887981}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.3125}
+  m_LocalPosition: {x: 0, y: 0, z: 6.3125005}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 4463600987856730072}
@@ -4844,7 +4844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35.200012, y: 8.299997}
+  m_AnchoredPosition: {x: -29.18932, y: 8.067438}
   m_SizeDelta: {x: 43.832466, y: 43.832466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1631189683400273770

@@ -6,7 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Audio;
+    
 //オーディオのキャッシュの種類
 public enum AudioCacheType {
 	None, All, Used
@@ -43,11 +44,27 @@ public abstract class AudioManager<T> : SingletonMonoBehaviour<T> where T : Mono
 	protected override void Init() {
 		base.Init();
 
-		//AudioSourceとAudioPlayer生成
-		for (int i = 0; i < _audioPlayerNum; i++) {
-			_audioPlayerList.Add(new AudioPlayer(gameObject.AddComponent<AudioSource>()));
-		}
-	}
+            //AudioSourceとAudioPlayer生成
+            for (int i = 0; i < _audioPlayerNum; i++)
+            {
+                var obj = gameObject.AddComponent<AudioSource>();
+
+                if(gameObject.name == "BGMManager")
+                    obj.outputAudioMixerGroup = Resources.Load<AudioMixer>("AudioMixer").FindMatchingGroups("Master")[1];
+                else
+                    obj.outputAudioMixerGroup = Resources.Load<AudioMixer>("AudioMixer").FindMatchingGroups("Master")[2];
+
+                _audioPlayerList.Add(new AudioPlayer(obj));
+            }
+
+            /*
+            //AudioSourceとAudioPlayer生成
+            for (int i = 0; i < _audioPlayerNum; i++)
+            {
+                _audioPlayerList.Add(new AudioPlayer(gameObject.AddComponent<AudioSource>()));
+            }
+            */
+        }
 
 	//指定したディレクトリにあるAudioClipをロードし、キャッシュ
 	protected void LoadAudioClip(string directoryPath, AudioCacheType cacheType, bool isReleaseBGMCache) {
@@ -238,7 +255,7 @@ public abstract class AudioManager<T> : SingletonMonoBehaviour<T> where T : Mono
 	/// </summary>
 	public void Pause(string audioPathOrName) {
 		var audioName = PathToName(audioPathOrName);
-		_audioPlayerList.ForEach(player => player.Pause(audioName));
+		_audioPlayerList.ForEach(player => player.UnPause(audioName));
 	}
 
 	/// <summary>
