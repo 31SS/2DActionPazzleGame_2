@@ -2,6 +2,7 @@
 using CharacterState;
 using KanKikuchi.AudioManager;
 
+//Playerの基底クラス
 public class BasePlayer : MonoBehaviour
 {
     protected const int REVERSE = -1;

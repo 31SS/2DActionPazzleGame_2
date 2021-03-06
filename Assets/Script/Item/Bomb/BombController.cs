@@ -13,12 +13,12 @@ public class BombController : MonoBehaviour, ISteponable, IBreakable
     //踏まれた時にFlagをtrueにする
     public void StepedOn()
     {
-        _bombAnimation.StepedOnFlag();
+        _bombAnimation.ExplosionFlag();
     }
-    //他のボムの
+    //他のBombの爆風が当たったときにFlagをtrueにしてFlagをOnにする
     public void Breaked()
     {
-        _bombAnimation.StepedOnFlag();
+        _bombAnimation.ExplosionFlag();
     }
 
     //Flagがtrueの時に爆発処理実行

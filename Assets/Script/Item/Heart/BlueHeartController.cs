@@ -1,7 +1,9 @@
 ﻿public class BlueHeartController : BaseHeart, IGetableBlueHeart
 {
+    //BlueManがBlueHeartに触れたときに呼び出される
     public void GotBlueHeart()
     {
+        //Heartが1つも取得されてなければStateを1つ取得した状態にしてEffectを出し、破壊する
         var nowTransform = transform;
         if (GameManager.Instance.currentState == GameManager.GameState.Playing_Heart0)
         {
@@ -10,6 +12,7 @@
             Destroy(gameObject);
             return;
         }
+        //Heartが既に1つ取得されていればStateをクリアに切り替えて状態にしてEffectを出し、破壊する
         GameManager.Instance.dispatch(GameManager.GameState.Clear);
         Instantiate(getItemEffect, nowTransform.position, nowTransform.rotation);
         Destroy(gameObject);

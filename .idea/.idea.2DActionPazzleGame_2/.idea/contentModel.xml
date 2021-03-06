@@ -1363,6 +1363,7 @@
         <e p="Script" t="Include">
           <e p="BoxcastTest.cs" t="Include" />
           <e p="Draft" t="Include">
+            <e p="CoinController.cs" t="Include" />
             <e p="FirstJump.cs" t="Include" />
             <e p="IPlayerInput.cs" t="Include" />
           </e>
@@ -1388,7 +1389,6 @@
               <e p="BombBlast.cs" t="Include" />
               <e p="BombController.cs" t="Include" />
             </e>
-            <e p="CoinController.cs" t="Include" />
             <e p="DamageableObject.cs" t="Include" />
             <e p="Heart" t="Include">
               <e p="BaseHeart.cs" t="Include" />

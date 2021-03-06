@@ -1,10 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+//Playerにダメージを与える　ダメージ処理はBasePlayerに実装
 public class DamageableObject : MonoBehaviour, IDamageable
 {
     public void ApplyDamage()
     {
+        //do nothing
     }
 }

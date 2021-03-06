@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿//BlueManが取れるBlueHeartか判別するインターフェース
 public interface IGetableBlueHeart
 {
     void GotBlueHeart();

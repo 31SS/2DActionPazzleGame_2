@@ -1,7 +1,6 @@
-﻿using System;
-using KanKikuchi.AudioManager;
+﻿using KanKikuchi.AudioManager;
 using UnityEngine;
-//Bombの爆発処理
+//Bombの爆風処理
 public class BombBlast : MonoBehaviour, IDamageable
 {
     private BombAnimation _bombAnimation;
@@ -16,6 +15,7 @@ public class BombBlast : MonoBehaviour, IDamageable
         SEManager.Instance.Play(SEPath.EXPLOSION);
     }
 
+    //爆風のAnimationが終わったらObjectを破壊
     private void Update()
     {
         if (_bombAnimation.DestroyJudge())
@@ -23,19 +23,20 @@ public class BombBlast : MonoBehaviour, IDamageable
             Destroy(gameObject);
         }
     }
-
+    
+    //爆風で壊せるものに当たったらメソッドを呼び出す
     private void OnTriggerEnter2D(Collider2D other)
     {
-        var breakableBlock = other.GetComponent<IBreakable>();
-        if (breakableBlock != null)
+        var breakable = other.GetComponent<IBreakable>();
+        if (breakable != null)
         {
-            breakableBlock.Breaked();
+            breakable.Breaked();
             
         }
     }
 
     public void ApplyDamage()
     {
-        
+        //do nothing
     }
 }

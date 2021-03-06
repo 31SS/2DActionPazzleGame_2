@@ -8,9 +8,9 @@ public class BombAnimation
         _animator = animator;
     }
     //Playerに踏まれたら爆発Animation開始
-    public void StepedOnFlag()
+    public void ExplosionFlag()
     {
-        _animator.SetTrigger("StepedOn");
+        _animator.SetTrigger("Explode");
     }
     //Animationの遷移状況を確認しつつ爆発処理の実行を判別
     public bool DestroyJudge()

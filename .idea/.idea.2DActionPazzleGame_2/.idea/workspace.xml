@@ -22,24 +22,27 @@
     <list default="true" id="5e76f2cc-ae41-4725-a496-994782a89e95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AudioManager_KanKikuchi/Resources/SE/Jingle/jingle10.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioManager_KanKikuchi/Resources/SE/Jingle/jingle10.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Block/SpikeHead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Block/SpikeHead.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/HowToPlay_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Bomb/bomb_1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/Bomb/bomb_1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/SoundView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/SoundView.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3_PazzleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Effect/EffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Effect/EffectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/DispatchGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/DispatchGameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameSystem/RaycastMask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameSystem/RaycastMask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/DamageableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/DamageableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/FirstJump.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/FirstJump.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/UnityChan2DController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/UnityChan2DController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +59,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PCharacterState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Effect/DamageEffectController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/VolumeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Item/SoilBlock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/BlockController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/BrokenBlockController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/DamageableObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/SEVolumeTextController.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/BGMVolumeTextController.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/FirstJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Effect/EffectController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/MaskMan/MaskManController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/RaycastMask.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/OptionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/DispatchGameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/DamageableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interface/IExplodableByInduction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +150,7 @@
       <workItem from="1614955297788" duration="3408000" />
       <workItem from="1614960934133" duration="1591000" />
       <workItem from="1615014017748" duration="10844000" />
+      <workItem from="1615031887733" duration="6288000" />
     </task>
     <servers />
   </component>
