@@ -6,8 +6,6 @@ public class BasePlayer : MonoBehaviour
 {
     protected const int REVERSE = -1;
     protected const int NON_REVERSE = 1;
-    protected const float KNOCKBACK_POWER = 5f;
-    protected const float ANGELRING_POS = 5f;
     protected const float LIMIT_Y_VEL = -15f;
 
     //変更前のステート名
@@ -24,19 +22,17 @@ public class BasePlayer : MonoBehaviour
 
 
     [SerializeField] protected PlayerParameter playerParameter;
-    protected static readonly float FloatingDistance = 0.01f;
 
     protected PlayerInput _playerInput;
     protected PlayerMover _playerMover;
     [SerializeField] protected Rigidbody2D m_rigidbody2D;
     [SerializeField] protected Animator m_animator;
-    [SerializeField] protected SpriteRenderer m_spriteRenderer;
-    [SerializeField] protected bool m_isGround/* { get; set; }*/;
+    [SerializeField] protected bool m_isGround;
     [SerializeField] protected ContactFilter2D _groundFilter2D;
     [SerializeField] protected ContactFilter2D _stepedOnFilter2D;
     [SerializeField] protected GameObject angelRing;
     [SerializeField] protected GameObject damageEffect;
-    private bool isInvincible;
+    // private bool isInvincible;
     private Vector2 minScreenEdge;
     private Vector2 maxScreenEdge;
     private float m_HalfWidth = 0.7f;
@@ -58,22 +54,15 @@ public class BasePlayer : MonoBehaviour
         minScreenEdge = cameraMain.ViewportToWorldPoint(Vector2.zero);
         maxScreenEdge = cameraMain.ViewportToWorldPoint(Vector2.one);
     }
-
-    protected void FixedUpdate()
-    {
-        
-    }
+    
 
     protected virtual void Update()
     {
+        //画面(カメラから見える部分)から出ないようにプレイヤーの行動範囲に制限をかける
         var cameraMain = Camera.main;
         minScreenEdge = cameraMain.ViewportToWorldPoint(Vector2.zero);
         maxScreenEdge = cameraMain.ViewportToWorldPoint(Vector2.one);
         var position = transform.position;
-        //画面(カメラから見える部分)から出ないように
-        // transform.position = 
-        //     new Vector2(Mathf.Clamp(position.x,minScreenEdge.x + m_HalfWidth,maxScreenEdge.x - m_HalfWidth),
-        //         Mathf.Clamp(position.y,minScreenEdge.y + m_HalfWidth,maxScreenEdge.y - m_HalfWidth));
         transform.position = 
             new Vector2(Mathf.Clamp(position.x,minScreenEdge.x + m_HalfWidth,maxScreenEdge.x - m_HalfWidth),
                 transform.position.y);
@@ -88,6 +77,7 @@ public class BasePlayer : MonoBehaviour
         }
     }
 
+    //CollisionEnter2Dで触れたものが踏めるアイテムか、ダメージを受けるアイテムか判別する
     protected void OnCollisionEnter2D(Collision2D other)
     {
         var stepedOnable = other.gameObject.GetComponent<ISteponable>();
@@ -117,6 +107,7 @@ public class BasePlayer : MonoBehaviour
         }
     }
 
+    //ダメージ処理
     private void DamageAct()
     {
         GameManager.Instance.dispatch(GameManager.GameState.Over);
@@ -133,24 +124,25 @@ public class BasePlayer : MonoBehaviour
     
     public void Idle()
     {
-
+        //do nothing
     }
     public void Run()
     {
-        
+        //do nothing
     }
     public void Air()
     {
         //_playerMover.Jump(m_animator, JUMP_POWER);
+        //do nothing
     }
 
     public void Attack()
     {
-
+        //do nothing
     }
 
     public void Damage()
     {
-        
+        //do nothing
     }
 }

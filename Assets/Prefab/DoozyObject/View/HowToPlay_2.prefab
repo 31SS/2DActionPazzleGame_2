@@ -2323,7 +2323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OrangeHeart
+  m_text: MaskHeart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -2352,7 +2352,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 27.2
+  m_fontSize: 33.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 5497163219560870311}
-    characterCount: 11
+    characterCount: 9
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -3063,7 +3063,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "BlueHeart\u306FBlueMan\u304C\u3001\nOrangeHeart\u306FMaskMan\u304C\u53D6\u308C\u308B\n\u3069\u3063\u3061\u3082\u53D6\u5F97\u51FA\u6765\u305F\u3089\u30B9\u30C6\u30FC\u30B8\u30AF\u30EA\u30A2!!\n"
+  m_text: "BlueHeart\u306FBlueMan\u304C\u3001\nMaskHeart\u306FMaskMan\u304C\u53D6\u308C\u308B\n\u3069\u3063\u3061\u3082\u53D6\u5F97\u51FA\u6765\u305F\u3089\u30B9\u30C6\u30FC\u30B8\u30AF\u30EA\u30A2!!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -3133,7 +3133,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 8851052555670393667}
-    characterCount: 64
+    characterCount: 62
     spriteCount: 0
     spaceCount: 3
     wordCount: 3

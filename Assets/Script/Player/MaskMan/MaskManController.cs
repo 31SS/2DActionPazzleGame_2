@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using CharacterState;
+﻿using UnityEngine;
 using KanKikuchi.AudioManager;
 using UniRx;
 
@@ -20,21 +16,27 @@ public class MaskManController: BasePlayer
             })
             .AddTo(this);
     }
-
-    // Update is called once per frame
+    
+    
     protected override void Update()
     {
+        //入力処理
         _playerInput.Inputting();
+        //接地判定
         m_isGround = m_rigidbody2D.IsTouching(_groundFilter2D);
-
+        
+        //横移動処理、BlueManとは違って矢印キーとは逆の方向に走る
         _playerMover.Move(REVERSE, playerParameter.RUN_SPEED, _playerInput.X, m_isGround, m_animator);
+        
         if (m_isGround)
         {
-            if (_playerInput.Jump == true)
+            //ジャンプ処理
+            if (_playerInput.Jump)
             {
                 _playerMover.Jump(m_animator, playerParameter.JUMP_POWER);
                 StateProcessor.State.Value = StateAir;
             }
+            //キーを押した方向にオブジェクトの向きを変える
             else if (Mathf.Abs(_playerInput.X) > 0)
             {
                 StateProcessor.State.Value = StateRun;
@@ -49,6 +51,7 @@ public class MaskManController: BasePlayer
         base.Update();
     }
     
+    //TriggerEnter2Dで触れたものがMaskHeartどうか判別する
     protected override void OnTriggerEnter2D(Collider2D other)
     {
         base.OnTriggerEnter2D(other);

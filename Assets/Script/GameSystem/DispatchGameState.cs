@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+//Sceneに遷移した直後にGameManagerのStateを切り替える
 public class DispatchGameState : MonoBehaviour
 {
     [SerializeField]

@@ -1363,6 +1363,7 @@
         <e p="Script" t="Include">
           <e p="BoxcastTest.cs" t="Include" />
           <e p="Draft" t="Include">
+            <e p="FirstJump.cs" t="Include" />
             <e p="IPlayerInput.cs" t="Include" />
           </e>
           <e p="Effect" t="Include">
@@ -1405,14 +1406,12 @@
               <e p="PCharacterState.cs" t="Include" />
               <e p="PlayerParameter.cs" t="Include" />
             </e>
-            <e p="FirstJump.cs" t="Include" />
             <e p="MaskMan" t="Include">
               <e p="MaskManController.cs" t="Include" />
             </e>
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerMover.cs" t="Include" />
             <e p="PlayerParameter_B.cs" t="Include" />
-            <e p="UnityChan2DController.cs" t="Include" />
           </e>
           <e p="Singleton" t="Include">
             <e p="SingletonMonoBehaviour.cs" t="Include" />

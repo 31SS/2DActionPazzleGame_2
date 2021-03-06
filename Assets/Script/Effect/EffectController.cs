@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+//Itemが消滅したときにエフェクトを出す
 public class EffectController : MonoBehaviour
 {
     [SerializeField] private Animator m_animator;

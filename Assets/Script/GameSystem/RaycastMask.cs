@@ -18,6 +18,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 \***************************************************************************/
 
+//外部サイトから引用
+//https://github.com/senritsu/unitility/blob/master/Assets/Unitility/GUI/RaycastMask.cs
+
 using UnityEngine;
 using UnityEngine.UI;
 

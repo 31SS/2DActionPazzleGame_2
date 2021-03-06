@@ -2027,6 +2027,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MasterCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4774886324157443908, guid: d56da45226f83374fa9fedb445ba3c43,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4910700345447153078, guid: d56da45226f83374fa9fedb445ba3c43,
         type: 3}
       propertyPath: m_IsActive
@@ -2210,7 +2215,7 @@ PrefabInstance:
     - target: {fileID: 1785938935968932102, guid: 782dbad3083b4ba4d8b30456ca4b0321,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 782dbad3083b4ba4d8b30456ca4b0321, type: 3}
