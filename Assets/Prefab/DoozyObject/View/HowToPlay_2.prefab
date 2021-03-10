@@ -1793,7 +1793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7206\u98A8\u306B\u89E6\u308C\u308B\u3068\u30DF\u30B9\n\u4E0A\u304B\u3089\u8E0F\u307E\u308C\u308B\u304B\u3001\n\u4ED6\u306E\u7206\u5F3E\u306E\u7206\u98A8\u3067\u8A98\u767A\u3055\u308C\u308B\u3068\n\u7206\u767A\u3059\u308B"
+  m_text: "\u7206\u98A8\u306B\u89E6\u308C\u308B\u3068\u30DF\u30B9\n\u4E0A\u304B\u3089\u8E0F\u3080\u304B\u3001\n\u4ED6\u306E\u7206\u5F3E\u306E\u7206\u98A8\u3067\u8A98\u767A\u3055\u305B\u308B\u3068\n\u7206\u767A\u3059\u308B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b0e943b915fa174c8d9d0c77e3b49c1, type: 2}
   m_sharedMaterial: {fileID: -5191196321379568286, guid: 5b0e943b915fa174c8d9d0c77e3b49c1,
@@ -1863,7 +1863,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1617034129829960136}
-    characterCount: 39
+    characterCount: 37
     spriteCount: 0
     spaceCount: 3
     wordCount: 4

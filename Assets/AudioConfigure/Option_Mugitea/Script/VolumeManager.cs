@@ -41,8 +41,8 @@
             // Debug.Log(audioMixer);
             // Debug.Log(exampleAudioMixer);
 
-            bgmVolume = PlayerPrefs.GetFloat(bgmVolumeKey, (maxBGMVolume * (float)defaultBGMVolume / 100) );
-            seVolume = PlayerPrefs.GetFloat(seVolumeKey, (maxSEVolume * (float)defaultSEVolume / 100) );
+            bgmVolume = PlayerPrefs.GetFloat(bgmVolumeKey, (maxBGMVolume * (float)defaultBGMVolume / 100) - 80);
+            seVolume = PlayerPrefs.GetFloat(seVolumeKey, (maxSEVolume * (float)defaultSEVolume / 100)  - 80);
 
             ChangeBGMVolume(bgmVolume);
             ChangeSEVolume(seVolume);

@@ -20,29 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e76f2cc-ae41-4725-a496-994782a89e95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animator/Bomb/bomb_1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/Bomb/bomb_1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/▶Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/Button/◀Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/MasterCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/SoundView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/DoozyObject/View/SoundView.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4_PazzleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Interface/IGetableBlueHeart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombBlast.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Bomb/BombController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/CoinController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/DamageableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/DamageableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/BaseHeart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/BlueHeartController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +48,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/DamageableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/SEVolumeTextController.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/BGMVolumeTextController.cs" />
-        <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/FirstJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Effect/EffectController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BlueManController.cs" />
@@ -90,6 +68,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/Item/Heart/MaskHeartController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" />
+        <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" />
       </list>
     </option>
   </component>
@@ -151,6 +130,7 @@
       <workItem from="1614960934133" duration="1591000" />
       <workItem from="1615014017748" duration="10844000" />
       <workItem from="1615031887733" duration="6288000" />
+      <workItem from="1615049363333" duration="340000" />
     </task>
     <servers />
   </component>
@@ -175,6 +155,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1615049691417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615049691417" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614875269851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
