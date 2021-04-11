@@ -12,13 +12,17 @@ public class PlayerMover
 
     public void Move(int reverseFlag,float maxSpeed,float move, bool m_isGround, Animator m_animator)
     {
+        //MaskManのMove関数である場合、reverseFlagの引数は-1であり、BlueManとは左右反対に走る
         m_rigidbody2D.velocity = new Vector2(reverseFlag * move * maxSpeed, m_rigidbody2D.velocity.y);
+        
+        //Animatorに値を渡す
         m_animator.SetFloat("Horizontal", move);
         m_animator.SetFloat("Vertical", m_rigidbody2D.velocity.y);
         m_animator.SetBool("isGround", m_isGround);
     }
     public void Jump(Animator m_animator, float jumpPower)
     {
+        //ジャンプ処理
         m_animator.SetTrigger("Jump");
         m_rigidbody2D.AddForce(Vector2.up * jumpPower);
         SEManager.Instance.Play(SEPath.JUMP, volumeRate: 0.5f);

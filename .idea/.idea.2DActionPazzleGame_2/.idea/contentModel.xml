@@ -1411,7 +1411,6 @@
             </e>
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerMover.cs" t="Include" />
-            <e p="PlayerParameter_B.cs" t="Include" />
           </e>
           <e p="Singleton" t="Include">
             <e p="SingletonMonoBehaviour.cs" t="Include" />

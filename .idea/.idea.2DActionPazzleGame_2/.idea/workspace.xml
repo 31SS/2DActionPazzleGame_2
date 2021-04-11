@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e76f2cc-ae41-4725-a496-994782a89e95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2DActionPazzleGame_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/UI/白ボタン2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/UI/白ボタン2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/UI/白ボタン3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/UI/白ボタン3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/PlayerMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Player/PlayerMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/PlayerParameter_B.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player/PlayerParameter_B.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameSystem/VolumeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Item/SoilBlock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/BlockController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/BrokenBlockController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ObstacleObject/DamageableObject.cs" />
@@ -69,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/BasePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Player/BlueMan/PlayerParameter.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioConfigure/Option_Mugitea/Script/VolumeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player/PlayerMover.cs" />
       </list>
     </option>
   </component>
@@ -131,6 +139,7 @@
       <workItem from="1615014017748" duration="10844000" />
       <workItem from="1615031887733" duration="6288000" />
       <workItem from="1615049363333" duration="340000" />
+      <workItem from="1615387500670" duration="1457000" />
     </task>
     <servers />
   </component>
