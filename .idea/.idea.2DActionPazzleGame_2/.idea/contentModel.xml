@@ -1365,6 +1365,7 @@
           <e p="Draft" t="Include">
             <e p="CoinController.cs" t="Include" />
             <e p="FirstJump.cs" t="Include" />
+            <e p="IncreaceItem.cs" t="Include" />
             <e p="IPlayerInput.cs" t="Include" />
           </e>
           <e p="Effect" t="Include">
@@ -1395,7 +1396,6 @@
               <e p="BlueHeartController.cs" t="Include" />
               <e p="MaskHeartController.cs" t="Include" />
             </e>
-            <e p="IncreaceItem.cs" t="Include" />
             <e p="SoilBlock.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
